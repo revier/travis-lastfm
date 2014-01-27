@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0460"
+   LastUpgradeVersion = "0500"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "06CD767416B047030040A783"
-               BuildableName = "ThatPhoto.app"
-               BlueprintName = "ThatPhoto"
-               ReferencedContainer = "container:ThatPhoto.xcodeproj">
+               BlueprintIdentifier = "496DC37E1333D35600743F65"
+               BuildableName = "libApptentiveConnect.a"
+               BlueprintName = "ApptentiveConnect"
+               ReferencedContainer = "container:ApptentiveConnect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,16 +28,17 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "496DC38B1333D35600743F65"
+               BuildableName = "ApptentiveConnectTests.octest"
+               BlueprintName = "ApptentiveConnectTests"
+               ReferencedContainer = "container:ApptentiveConnect.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "06CD767416B047030040A783"
-            BuildableName = "ThatPhoto.app"
-            BlueprintName = "ThatPhoto"
-            ReferencedContainer = "container:ThatPhoto.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -48,15 +49,6 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "06CD767416B047030040A783"
-            BuildableName = "ThatPhoto.app"
-            BlueprintName = "ThatPhoto"
-            ReferencedContainer = "container:ThatPhoto.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -64,23 +56,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "06CD767416B047030040A783"
-            BuildableName = "ThatPhoto.app"
-            BlueprintName = "ThatPhoto"
-            ReferencedContainer = "container:ThatPhoto.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
