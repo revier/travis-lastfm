@@ -1,4 +1,5 @@
 language: objective-c
-scrpit:
- - xctool -project ThatPhoto.xcodeproj -scheme ThatPhoto -sdk ipadsimulator ONLY_ACTIVE_ARCH=NO
- - xctool test -project ApptentiveConnect.xcodeproj -scheme ApptentiveConnectTests -sdk ipadsimulator ONLY_ACTIVE_ARCH=NO
+xcode_project: ThatPhoto.xcodeproj
+xcode_scheme: ThatPhoto
+xcode_sdk: ipadsimulator
+
