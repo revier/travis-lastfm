@@ -1,5 +1,5 @@
 language: objective-c
 xcode_project: ThatPhoto.xcodeproj
 xcode_scheme: ThatPhoto
-xcode_sdk: ipadsimulator
+xcode_sdk: iphonesimulator
 
